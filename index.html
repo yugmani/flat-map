@@ -1,1 +1,40 @@
-<div id="app"></div>
+<div id="app">
+  <h1>
+    How to Use the <code class="bgc">flat()</code> and <code class="bgc">flatMap()</code> Methods to Flatten Arrays in JavaScript
+  </h1>
+  <ul>
+    <li>
+      <h3><code class="bgc">Array.flat()</code> Method</h3>
+      <ol>
+        <li>
+          You use the flat method to convert an original array into a new array.
+          It does this by collecting and concatenating the sub-arrays in an
+          array into a single array.
+        </li>
+        <li>
+          An important note about this array method is that you can compute the
+          original into another array based on the depth of the array.
+        </li>
+        <li>Syntax: <code class="bgc">array.flat(depth);</code></em></li>
+        <li>The depth value is 1 by default and you can leave it empty. The depth value takes a number as its data type.</li>     
+      </ol>
+    </li>
+    <li>
+    <h3><code class="bgc">Array.flatMap()</code> Method</h3>
+    <ol>
+      <li>The <code class="bgc">flatMap()</code> method uses a combination of the <code class="bgc">map()</code> and <code class="bgc">flat()</code> methods to perform operations.</li>
+      <li>The <code class="bgc">flatMap()</code> loops through the elements of an array and concatenates the elements into one level. </li>
+      <li><code class="bgc">flatMap()</code> takes in a callback function which takes in the current element of the original array as a parameter.</li>
+      <li>Sometimes you'll have a situation where you have more than one depth of an array and you decide to change the new array into a one base level. Then you will have to use the flat() method immediately after the flatMap() method.</li>
+      <li></li>
+    </ol>
+    </li> 
+  </ul>
+  <p>
+    Source:
+    <a
+      href="https://www.freecodecamp.org/news/flat-and-flatmap-javascript-array-methods/"
+    ></a
+    >flat() and flatMap() by Kenechukwu Nwobodo
+  </p>
+</div>
